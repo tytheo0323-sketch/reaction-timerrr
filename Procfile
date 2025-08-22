@@ -1,0 +1,1 @@
+web: gunicorn 감구리:app
