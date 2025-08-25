@@ -30,12 +30,14 @@
 ---
 
 ## 📂 프로젝트 구조
+```text
 reaction-timerrr/
 ├── static/ # 정적 파일 (CSS, JS)
 │ ├── 감구리.css
 │ └── 감구리.js
 ├── templates/ # HTML 템플릿
 │ └── 감구리.html
-├── 감구리.py # Flask 메인 서버 코드 (Flask app: app)
+├── 감구리.py # Flask 메인 서버 코드
 ├── requirements.txt # 필요한 패키지 목록 (Flask, gunicorn 등)
 └── Procfile # Railway 배포 설정 (예: web: gunicorn 감구리:app)
+```
